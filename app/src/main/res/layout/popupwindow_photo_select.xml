@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="bottom"
+    android:layout_height="match_parent">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手机拍照"
+            android:id="@+id/btn_carmera"
+            android:textColor="#436EEE"
+            android:layout_marginBottom="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/select_popupwindow_top_cornet"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#D9D9D9"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="手机相册"
+            android:layout_marginTop="1px"
+            android:id="@+id/btn_album"
+            android:textColor="#436EEE"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/select_popupwindow_bottom_cornet"
+            />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:id="@+id/btn_cancle"
+        android:layout_margin="10dp"
+        android:textColor="#436EEE"
+        android:background="@drawable/select_popupwindow_four_corner"
+        />
+</LinearLayout>
